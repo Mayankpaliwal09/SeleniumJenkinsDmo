@@ -16,6 +16,7 @@ public class FormFill {
     public void test_awesomeQA(){
 
 //        //input[@id="sex-0"]
+//        //input[@id="sex-0"]
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://awesomeqa.com/practice.html");
@@ -51,5 +52,6 @@ public class FormFill {
         WebElement button = driver.findElement(By.cssSelector("button[id='submit']"));
         button.click();
         driver.close();
+
     }
 }
